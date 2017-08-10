@@ -1,0 +1,22 @@
+
+section.new-tweet {
+display: none;
+border-radius: 10px;
+padding: 2em;
+background: #eee;
+}
+h2 {
+border-bottom: 1px solid #244751;
+padding-bottom: 1px;
+text-align: left;
+}
+#textBox {
+padding: 10px 10px;
+width: 100%;
+}
+span.counter {
+float: right;
+}
+input.inputbutton {
+border-radius: 5px;
+}

@@ -15,11 +15,20 @@ html {
  */
 
 body {
-  margin: 0;
-  color: #244751;
+  margin: 0px;
   background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-
+main.container {
+width: 450px;
+margin: 0px auto;
+background: white;
+padding: 10px;
+border-radius: 10px;
+}
+section.new-tweet {
+  color: #244751;
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

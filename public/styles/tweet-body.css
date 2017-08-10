@@ -1,0 +1,65 @@
+
+header.header_tweet {
+  background-color: #f6f6f6;
+  border-bottom: 0.5px solid #d7d7d7;
+  text-align: left;
+  padding: 0.5em 0.5em;
+  height:80px;
+}
+img.image {
+  width: 60px;
+  height: 60px;
+  float: left;
+  border: 0.5px solid #d7d7d7;
+  border-width: 0.5px;
+  border-radius: 5px;
+}
+h3.name {
+  float: left;
+}
+p.handle {
+  float: right;
+  font-size: 15px;
+}
+article.thebox {
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  border-color: #d7d7d7;
+  margin: 10px 0px;
+}
+p.tweetbox {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 1em 0.5em;
+  font-size: 15px;
+  height: 80px;
+}
+footer.footer_tweet {
+  border-top: 0.5px solid #d7d7d7;
+  padding: 1em 1em;
+  font-size: 10px;
+}
+p.invisible {
+  color: #FFF;
+  float: right;
+  margin-top: -0.25em;
+}
+article.thebox:hover {
+  border-style: solid;
+  border-color: #244751;
+  color: #1a2f35;
+}
+article.thebox:hover header {
+  background-color: #e8e8e8;
+}
+article.thebox:hover p.tweetbox{
+  color: #244751;
+}
+article.thebox:hover p.invisible {
+  opacity: 0%;
+  color: #40E0D0;
+
+}
+
+
