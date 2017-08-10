@@ -3,6 +3,27 @@ function createTweetElement (tweetObject) {
   var $article = $('<article class= "thebox"></article>');
   console.log('create', tweetObject)
 
+    function date (d) {
+      var today = new Date();
+      var todaytime = today.getTime();
+      console.log(todaytime)
+      var secdiff = (todaytime - d);
+      var newdate= ((((secdiff /1000) /60) /60 )/24);
+        if (newdate < 1) {
+
+          var hours = newdate * 24;
+
+          if (hours >= 1) {
+            return (Math.round(hours) + " hours ago");
+          }
+          if (hours < 1) {
+            return (Math.round(hours*60) + " minutes ago");
+          }
+        } else {
+         return (newdate + " Days ago");
+        }
+    }
+
   var $header = $(`
     <header class="header_tweet">
       <img class="image" src="${ tweetObject.user.avatars.regular }">
@@ -13,7 +34,7 @@ function createTweetElement (tweetObject) {
   var $body =$(`<p class= "tweetbox">${escape(tweetObject.content.text)}</p>`)
 
   var $footer=$(`<footer class="footer_tweet">
-                    ${ tweetObject.created_at }
+                    ${ date(tweetObject.created_at) }
                   <p class="invisible">
                     <i class="fa fa-heart" aria-hidden="true"></i>
                     <i class="fa fa-flag" aria-hidden="true"></i>
@@ -70,11 +91,9 @@ $('form').on('submit', function (event) {
         url: '/tweets',
         data: $(this).serialize()
     }).done(function () {
-        loadTweets()
+      loadTweets()
     });
 });
 
 });
-
-
 
