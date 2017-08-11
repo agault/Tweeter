@@ -18,6 +18,6 @@ This repository is the starter code for the project: Students will fork and clon
 # Tweeter
 
 ##Images
-!['']
-!['']
-!['']
+!['Before click compose.png'](https://github.com/agault/Tweeter/blob/master/public/tweet-box/Before%20click%20compose.png?raw=true)
+!['Error Message.png'](https://github.com/agault/Tweeter/blob/master/public/tweet-box/Error%20Message.png?raw=true)
+!['after click compose.png'](https://github.com/agault/Tweeter/blob/master/public/tweet-box/after%20click%20compose.png?raw=true)
