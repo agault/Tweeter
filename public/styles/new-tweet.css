@@ -1,22 +1,28 @@
 
 section.new-tweet {
-display: none;
-border-radius: 10px;
-padding: 2em;
-background: #eee;
+  display: none;
+  border-radius: 10px;
+  padding: 2em;
+  background: #E5FCC2;
 }
 h2 {
-border-bottom: 1px solid #244751;
-padding-bottom: 1px;
-text-align: left;
+  border-bottom: 1px solid #594F4F;
+  padding-bottom: 1px;
+  text-align: left;
+  color: #594F4F;
 }
 #textBox {
-padding: 10px 10px;
-width: 100%;
+  padding: 10px 10px;
+  width: 100%;
 }
 span.counter {
-float: right;
+  float: right;
 }
 input.inputbutton {
-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #594F4F;
+  background: white;
+  color: #594F4F;
+  opacity:0.7;
+  border-width: 1px;
 }

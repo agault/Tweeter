@@ -1,40 +1,40 @@
 #nav-bar {
-background-color: #00a087;
-color: #FFF;
-height: 80px;
-width: 100%;
-padding: 0 2em;
-line-height: 2;
+  background-color: #45ADA8;
+  color: #E5FCC2;
+  height: 80px;
+  width: 100%;
+  padding: 0 2em;
+  line-height: 2;
 }
 #nav-bar .logo {
-height: 80px;
-width: 80px;
-float: left;
+  height: 80px;
+  width: 80px;
+  float: left;
 }
 #nav-bar .header {
-font-size: 40px;
-padding-left: 10px;
-float: left;
+  font-size: 40px;
+  padding-left: 10px;
+  float: left;
 }
 #nav-bar .header_compose_button{
-float: right;
-color: #00a087 ;
-height: 60px;
-width: 100px;
-border-radius: 10px;
-border-color: black;
-border-width:  0.2px;
-background: #FFF;
-font-family: 'Roboto Condensed', sans-serif;
-opacity: 0.75;
-margin-top: 10px;
-font-size: 17px;
+  float: right;
+  color: #45ADA8;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: #45ADA8;
+  border-width: 0.2px;
+  background: #E5FCC2;
+  font-family: 'Roboto Condensed', sans-serif;
+  opacity: 0.75;
+  margin-top: 10px;
+  font-size: 17px;
 }
 #nav-bar .header_compose_button:hover {
-opacity: 0.9;
-color: #244751; ;
+  opacity: 0.9;
+  color: #547980;
 }
 #nav-bar .header_compose_button:focus {
-opacity: 0.9;
-color: #244751; ;
+  opacity: 0.9;
+  color: #547980;
 }

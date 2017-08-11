@@ -1,16 +1,17 @@
 
 header.header_tweet {
-  background-color: #f6f6f6;
-  border-bottom: 0.5px solid #d7d7d7;
+  background-color: #E5FCC2 ;
+  border-bottom: 0.5px solid #E5FCC2;
   text-align: left;
   padding: 0.5em 0.5em;
   height:80px;
+  color: #594F4F
 }
 img.image {
   width: 60px;
   height: 60px;
   float: left;
-  border: 0.5px solid #d7d7d7;
+  border: 0.5px solid #594F4F;
   border-width: 0.5px;
   border-radius: 5px;
 }
@@ -25,7 +26,7 @@ article.thebox {
   border-style: solid;
   border-width: 0.5px;
   border-radius: 5px;
-  border-color: #d7d7d7;
+  border-color: #E5FCC2;
   margin: 10px 0px;
 }
 p.tweetbox {
@@ -36,7 +37,7 @@ p.tweetbox {
   height: 80px;
 }
 footer.footer_tweet {
-  border-top: 0.5px solid #d7d7d7;
+  border-top: 0.5px solid #E5FCC2;
   padding: 1em 1em;
   font-size: 10px;
 }
@@ -47,18 +48,18 @@ p.invisible {
 }
 article.thebox:hover {
   border-style: solid;
-  border-color: #244751;
-  color: #1a2f35;
+  border-color: #45ADA8;
+  color: #45ADA8;
 }
 article.thebox:hover header {
-  background-color: #e8e8e8;
+  background-color: #9DE0AD;
 }
 article.thebox:hover p.tweetbox{
-  color: #244751;
+  color: #547980;
 }
 article.thebox:hover p.invisible {
   opacity: 0%;
-  color: #40E0D0;
+  color: #45ADA8;
 
 }
 
